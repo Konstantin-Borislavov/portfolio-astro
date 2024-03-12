@@ -1,0 +1,44 @@
+---
+import Section from '../Section.astro'
+import { languages } from 'C:/Users/kosio/portfolio-astro/cv.json'
+---
+
+
+<Section title="Idiomas">
+        <ul>
+        {
+            languages.map(({language,fluency}) =>(
+           
+                <li>
+                    <span class="idioma">{language}: {fluency}</span>
+                </li>
+          
+            ))
+            
+        }
+        </ul>
+
+</Section>
+
+
+<style>
+
+
+ul{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+}
+li{
+        border-radius: 6px;
+        background-color: #eee;
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+
+
+
+</style>

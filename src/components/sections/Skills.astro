@@ -1,0 +1,68 @@
+---
+import Section from '../Section.astro'
+import { skills } from "@cv"
+---
+
+<Section title = "Habilidades">
+<ul class="no-print-skills">
+    {
+        skills.map(({name}) =>(
+            <li>
+                <span>{name}</span>
+            </li>
+        ))
+        
+    }
+</ul>
+<ul class="print-skills">
+    {
+        skills.map(({name}) =>(
+            <li>
+                <span>{name}</span>
+            </li>
+        ))
+        
+    }
+</ul>
+
+<Section />    
+
+<style>
+
+    .print-skills{
+		display: none  !important;
+        flex-wrap: wrap;
+        max-height: 100px;
+        gap: 5px;
+	}
+    @media print{
+		.no-print-skills{
+			display: none !important;
+		}
+
+	}
+
+	@media print{
+		.print-skills{
+			display: flex !important;
+			flex-direction: column;
+            
+		}
+	}
+    .no-print-skills{
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    li{
+        border-radius: 6px;
+        background-color: #eee;
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+
+
+</style>
