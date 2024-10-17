@@ -1,5 +1,132 @@
----
-import Section from "../Section.astro"
----
+    ---
+    import Section from "../Section.astro"
+    import { work } from '@cv'
+    const workSkills = work[0].skills
+    ---
 
-<Section title = "Experience" />
+    <Section title = "Experiencia" >
+        <ul>
+            {
+            work.map(
+                ({name, position,startDate, endDate, summary, skills})=>{
+                const start = new Date(startDate).getFullYear()    
+                const end = new Date(endDate).getFullYear() 
+                const dates = `Abril ${start} - Julio ${end}`
+                return(
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{name}</h3>
+                                    <h4>{position}</h4>
+                                </div>
+                                <time>{dates}</time>
+                            </header>
+                            <footer>
+                                <p>{summary}</p>
+                            </footer>
+                        </article>
+                    </li>
+                )
+            }
+            )
+            }
+        </ul>
+        <br>
+        
+        <ul class="no-print-skills">
+            {
+                workSkills.map(({name}) =>( 
+                    <li class="skill">
+                        <span>{name}</span>
+                    </li>
+                ))
+                
+            }
+        </ul>
+        <ul class="print-skills">
+            {
+                workSkills.map(({name}) =>(
+                    <li class="skill">
+                        <span>{name}</span>
+                    </li>
+                ))
+                
+            }
+        </ul>
+
+
+
+
+
+    </Section>
+
+    <style>
+
+    
+        article h3 {
+        font-weight: 500;
+        color: #111;
+        margin-bottom: 10px;
+        }
+        article h4 {
+        font-weight: 500;
+        color: #2c2b2b;
+        margin-bottom: 2px;
+        }
+    
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 2px;
+        }
+    
+        time {
+        color: #555;
+        font-size: 0.85rem;
+        min-width: 102px;
+        }
+    
+        @media (width <= 700px) {
+        time {
+            text-align: right;
+        }
+        }
+
+        .print-skills{
+            display: none  !important;
+            flex-wrap: wrap;
+            max-height: 100px;
+            gap: 5px;
+        }
+
+
+        @media print{
+            .no-print-skills{
+                display: none !important;
+            }
+
+        }
+
+        @media print{
+            .print-skills{
+                display: inline-flex !important;
+            }
+        }
+        .no-print-skills{
+            display: inline-flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .skill{
+            border-radius: 6px;
+            background-color: #eee;
+            color: black;
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 0.2rem 0.6rem;
+        }
+
+    </style>

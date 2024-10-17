@@ -1,12 +1,12 @@
 {
     "basics": {
       "name": "Konstantin Borislavov",
-      "label": "Estudiante de DAW, aspirando a ser programador Full Stack",
-      "image": "https://avatars.githubusercontent.com/u/122172771?s=400&u=d1e5ed8d16b1fff0d59fdd0383eb0a564dc0aa9f&v=4",
+      "label": "Graduate in Web Application Development",
+      "image": "https://avatars.githubusercontent.com/u/122172771?v=4",
       "email": "konstantinborislavovc@gmail.com",
       "phone": "+34 633782539",
       "url": "https://johndoe.com",
-      "summary": "Hola, mi nombre es Konstantin y tengo 24 años. Siempre me ha gustado la tecnología y disfruto resolviendo problemas. Es por esto, que hace dos años empecé un grado superior de Desarrollo de Aplicaciones Web, que estoy a punto de terminar, solo a falta del periodo de prácticas. De momento, disfruto de todas la áreas del desarrollo web, por lo que mi intención es ser programador Full-Stack en un futuro cercano. ",
+      "summary": "Hola, mi nombre es Konstantin y tengo 24 años. Siempre me ha gustado la tecnología y disfruto resolviendo problemas. Es por esto, que hace dos años empecé un grado superior de Desarrollo de Aplicaciones Web, que acabo de terminar con éxito. De momento, disfruto de todas la áreas del desarrollo web, por lo que mi intención es ser programador Full-Stack en un futuro cercano. ",
       "summary2":"Me considero una persona muy trabajadora y ambiciosa, y me encanta aprender sobre la marcha y adaptarme a los desafíos que van surgiendo.",
       "location": {
         "address": "2712 Broadway St",
@@ -29,15 +29,29 @@
     ]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
+      "name": "Multisafepay",
+      "position": "Prácticas de formacion profesional",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "2024-04-04",
+      "endDate": "2024-03-07",
+      "summary": "3 meses de prácticas en Multisafepay, una compañía holandesa de pagos electrónicos. Durante la primera mitad de estas prácticas, estuve en el departamento de QA, haciendo testing automático, mientras que ne la segunda mitad, trabajé en el de frontend.",
       "highlights": [
         "Started the company"
-      ]
+      ],
+      "skills": [
+      {
+        "name": "Automated testing"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Playwright"
+      },
+      {
+        "name": "Javascript"
+      }
+    ]
     }],
     "volunteer": [{
       "organization": "Organization",
@@ -55,7 +69,7 @@
         "institution": "Universidad Alfonso X el Sabio",
         "url": "",
         "area": "Desarrollo de Aplicaciones Web",
-        "studyType": "Grado superior",
+        "studyType": "Formacion profesional de grado superior",
         "startDate": "2022",
         "endDate": "2024",
         
@@ -82,10 +96,10 @@
       "awarder": "Company",
       "summary": "There is no spoon."
     }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
+   "certificates": [{
+      "name": "Learn Git & GitHub Course",
+      "date": "2024",
+      "issuer": "Codecademy",
       "url": "https://certificate.com"
     }],
     "publications": [{
@@ -97,7 +111,13 @@
     }],
     "skills": [
       {
-        "name": "Java"
+        "name": "GIT"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "React"
       },
       {
         "name": "JavaScript"
@@ -106,19 +126,10 @@
         "name": "Python"
       },
       {
-        "name": "React"
+        "name": "Java"
       },
       {
-        "name": "Node.js"
-      },
-      {
-        "name": "Astro"
-      },
-      {
-        "name": "PHP"
-      },
-      {
-        "name": "MySql"
+        "name": "SQL"
       },
       {
         "name": "HTML5"
@@ -128,9 +139,6 @@
       },
       {
         "name": "POO"
-      },
-      {
-        "name": "Figma"
       }
     ],
     "languages": [{

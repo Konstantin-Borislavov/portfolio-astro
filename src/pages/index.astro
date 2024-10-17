@@ -7,7 +7,7 @@ import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 import Languages from '@/components/sections/Languages.astro';
 import Education from '@/components/sections/Education.astro';
-import KeyboardManager from '@/components/sections/KeyboardManager.astro';
+import Certificates from '@/components/sections/Certificates.astro';
 
 ---
 
@@ -15,18 +15,18 @@ import KeyboardManager from '@/components/sections/KeyboardManager.astro';
 	<main>
 		<Hero />
 		<About />
-		<!--<Experience /> -->
+		<Experience />
 		<Education />
+		<Certificates/>
 		<!--<Projects /> -->
 		<Skills />
 		<Languages />
 	</main>
-	<KeyboardManager />
 </Layout>
 
 <style>
 	main{
-		padding: 4rem;
+		padding: 5rem;
 		margin: auto;
 		width: 100%;
 	}

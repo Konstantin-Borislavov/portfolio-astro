@@ -1,0 +1,155 @@
+{
+    "basics": {
+      "name": "Konstantin Borislavov",
+      "label": "Graduate in Web Application Development",
+      "image": "https://avatars.githubusercontent.com/u/122172771?v=4",
+      "email": "konstantinborislavovc@gmail.com",
+      "phone": "+34 633782539",
+      "url": "https://johndoe.com",
+      "summary": "Hello, my name is Konstantin and I am 24 years old. I have always been interested in technology and enjoy solving problems. This is why, two years ago, I started an advanced degree in Web Application Development, which I have just successfully completed. For now, I enjoy all areas of web development, so my intention is to become a Full-Stack developer in the near future.",
+      "summary2": "I consider myself a very hardworking and ambitious person, and I love learning on the go and adapting to the challenges that arise.",
+      "location": {
+          "address": "2712 Broadway St",
+          "postalCode": "29680",
+          "city": "Estepona",
+          "countryCode": "Spain",
+          "region": "Málaga"
+      },
+      
+      "profiles": [
+          {
+              "network": "LinkedIn",
+              "username": "Konstantin Borislavov",
+              "url": "https://www.linkedin.com/in/konstantin-borislavov-cheshmedzhiev-347b4a25b/"
+          },
+          {
+              "network": "Github",
+              "username": "Konstantin-Borislavov",
+              "url": "https://github.com/Konstantin-Borislavov"
+          }
+      ]
+  },
+  "work": [{
+      "name": "Multisafepay",
+      "position": "Professional Training Internship",
+      "url": "https://company.com",
+      "startDate": "2024-04-04",
+      "endDate": "2024-03-07",
+      "summary": "3-month internship at Multisafepay, a Dutch electronic payments company. During the first half of this internship, I was in the QA department, doing automated testing, while in the second half, I worked in the frontend department.",
+      "highlights": [
+          "Started the company"
+      ],
+      "skills": [
+          {
+              "name": "Automated testing"
+          },
+          {
+              "name": "Python"
+          },
+          {
+              "name": "Playwright"
+          },
+          {
+              "name": "Javascript"
+          }
+      ]
+  }],
+  "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+          "Awarded 'Volunteer of the Month'"
+      ]
+  }],
+  "education": [
+      {
+          "institution": "Universidad Alfonso X el Sabio",
+          "url": "",
+          "area": "Web Application Development",
+          "studyType": "Certificate of higher vocational education",
+          "startDate": "2022",
+          "endDate": "2024",
+          "description": "Practical approach to web development, covering all areas including: Object-oriented programming, Frontend Development with HTML, CSS, and Javascript, and Backend Development with PHP and Java"
+      }
+  ],
+  "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+  }],
+  "certificates": [{
+      "name": "Learn Git & GitHub Course",
+      "date": "2024",
+      "issuer": "Codecademy",
+      "url": "https://certificate.com"
+  }],
+  "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+  }],
+  "skills": [
+      {
+        "name": "GIT"
+      },
+      {
+          "name": "JavaScript"
+      },
+      {
+          "name": "Python"
+      },
+      {
+          "name": "React"
+      },
+      {
+          "name": "SQL"
+      },
+      {
+          "name": "HTML5"
+      },
+      {
+          "name": "CSS3"
+      },
+      {
+        "name": "Java"
+      }
+  ],
+  "languages": [{
+      "language": "Spanish",
+      "fluency": "Native"
+  },{
+      "language": "English",
+      "fluency": "Fluent"
+  },{
+      "language": "Bulgarian",
+      "fluency": "Native"
+  }],
+  "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+          "Ferrets",
+          "Unicorns"
+      ]
+  }],
+  "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+  }],
+  "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+          "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+  }]
+}

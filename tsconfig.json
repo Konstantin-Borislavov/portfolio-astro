@@ -1,10 +1,13 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "C:/Users/kosio/portfolio-astro",
+    "baseUrl": "/home/kosio/Programacion/portfolio-astro/portfolio-astro",
     "paths": {
       "@cv": [
         "./cv.json"
+      ],
+      "@cv-en": [
+        "./cv-en.json"
       ],
       "@/*": [
         "src/*"
